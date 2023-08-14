@@ -1,0 +1,122 @@
+:root {
+    --box-shadow-color: rgba(0, 0, 0, 0.01);
+    --black: #000000;
+    --orange: #DF6951;
+}
+
+.packages{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 100%;
+}
+
+.packages h2{
+    color: #DF6951;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.packages h1{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* line-height: 41.042px;  */
+}
+
+.packages-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.packages-box .packages-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--black);
+    margin-bottom: 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.packages-box .packages-images, .packages-box .packages-content{
+    /* flex-basis: 50%; */
+    width: 50%;
+}
+.packages-box .packages-images img{
+    border-radius: 376.107px 376.107px 0px 0px;
+    overflow: hidden;
+    height: 450px;
+}
+
+.elispe-three{
+    position: absolute;
+    bottom: 1210px;
+    left: 170px;
+    width: 150px;
+    height: 150px;
+    animation: bounce 5s infinite;
+    transform-origin: bottom;
+}
+
+.elispe-two{
+    position: absolute;
+   bottom: 900px;
+    left: -20px;
+    width: 150px;
+    height: 150px;
+    animation: bounce 5s infinite;
+    transform-origin: bottom;
+}
+
+.elispe-one{
+    position: absolute;
+   bottom: 1180px;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+    animation: bounce 5s infinite;
+    transform-origin: bottom;
+}
+
+.elispe-four{
+    position: absolute;
+    bottom: 900px;
+    left: 50px;
+    width: 50px;
+    height: 350px;
+    z-index: -20;
+    animation: bounce 5s infinite;
+    transform-origin: bottom;
+   
+}
+
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+

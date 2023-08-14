@@ -1,0 +1,231 @@
+:root {
+    --box-shadow-color: rgba(0, 0, 0, 0.01);
+    --black: #000000;
+    --orange: #DF6951; 
+    /* --light-grey: #F5F5F5; */
+    --light-grey: #E5E5E5;
+}
+
+.booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.booking h2{
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.booking-row, .clip-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 250px;
+    /* width: 100%; */
+}
+
+.booking-pecks{
+    margin-top: 20px;
+}
+.booking-peck{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+.booking-peck-details{
+    margin-left: 20px;
+}
+
+.booking h1{
+    color: #181E4B;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.booking-desc{
+    width: 35%;
+}
+
+.booking-peck img{
+    margin-left: 0;
+}
+.booking-peck h5{
+    color: var(--textclr, #5E6282);
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+.booking-peck p{
+    color: var(--textclr, #5E6282);
+    /* font-family: Poppins; */
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 3px;
+}
+
+.linear-load-bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 4px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.linear-load-bar::before {
+    content: "";
+    display: block;
+    width: 40%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: var(--orange); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: width 1s ease; 
+}
+.progress-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--black); 
+}
+
+.progress-text .percentage {
+    color: var(--orange);
+}
+.clip{
+        border-radius: 18px;
+        background: var(--white, #FFF);
+        padding: 10px 20px 10px 20px;
+        width: 200px;
+        right: -150px;
+        top: -100px;
+        position: relative;
+}
+.clip, .trip-card{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05),
+                    0px 8px 6px 0px rgba(0, 0, 0, 0.05),
+                    0px 20px 13px 0px rgba(0, 0, 0, 0.05),
+                    0px 38px 25px 0px rgba(0, 0, 0, 0.05),
+                    0px 64px 46px 0px rgba(0, 0, 0, 0.05),
+                    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.clip h5{
+    color: var(--textclr, #5E6282);
+    /* font-family: Poppins; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.clip p{
+    color: var(--black);
+    /* font-family: Poppins; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.clip img{
+    border-radius: 50%;
+    margin-right: 20px;
+    top: -15px;
+    height: 40px;
+    width: 40px;
+    margin-left: 0;
+    position: relative;
+}
+
+.trip-card img{
+    width: 250px;
+    height: 120px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 0;
+}
+.trip-card{
+    padding: 15px;
+    border-radius: 15px;
+    width: 280px;
+    background-color: #fff;
+}
+.trip-card h4{
+    color: var(--black, #080809);
+    /* font-family: Poppins; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    letter-spacing: 0.27px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.trip-card p{
+    color: var(--text-2, #84829A);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 124.5%;  */
+}
+.trip-ball{
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--light-grey);
+    z-index: 2;
+    margin: 10px;
+}
+.trip-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+.trip-ball img{
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+    margin-left: 0;
+}
+.trip-card-interest img{
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.trip-card-interest{
+    margin-top: 30px;
+}
+
+.booking-row .aeroplane{
+    width: 300px;
+    height: 300px;
+}
+
+.aeroplane{
+    position: absolute;
+    bottom: 600px;
+    right: 100px;
+    transform: scaleX(-1) rotate(20deg);
+    z-index: -100;
+   
+}
+
+
+
+
+
+

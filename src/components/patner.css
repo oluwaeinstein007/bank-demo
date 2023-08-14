@@ -1,0 +1,25 @@
+.patners{
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+
+    overflow: hidden;
+}
+
+.patners img{
+    width: 100px;
+
+    animation: slideToLeft 10s linear infinite;
+}
+
+@keyframes slideToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,27 @@
+.plus{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  gap: 1px;
+  width: 170px;
+  position: absolute;
+  bottom: 420px;
+  right: 500px;
+  z-index: -100;
+}
+
+.plus p{
+  color: #E5E5E5;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.plus .col{
+  color: #DF6951;
+}
+  
+ 
+  

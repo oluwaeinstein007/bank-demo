@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+img{
+    margin-left: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+button{
+    background-color: #DF6951;
+    box-shadow: drop-shadow(0px 20px 35px rgba(223, 105, 81, 0.15));
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+}
+

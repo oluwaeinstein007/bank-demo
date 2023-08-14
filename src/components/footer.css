@@ -1,0 +1,172 @@
+.footer{
+    width: 100%;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-text{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #E5E5EA;
+}
+
+.footer-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-body .small-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-body .small-text a{
+    color: #181433;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+.news p{
+    color: #181433;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.32px;
+    width: 80%;
+}
+
+.email{
+    width: 300px;
+    height: 40px;
+    background: #EEF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email input{
+    width: 60%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background: transparent;
+    color: #181433;
+}
+
+
+
+.copy-right{
+    color: #181433;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.32px;
+}
+
+.main{
+    color: #181433;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.travel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+
+.travel h3{
+    color: #757095;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.32px;
+}
+
+.travel-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.travel-logo img{
+    width: 100px;
+    height: 20px;
+}
+
+.travel-logo h3{
+    color: #181E4B;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 31.622px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 100px;
+}
+
+.travel .images{
+    display: flex;
+    gap: 1px;
+}
+
+.travel .images img{
+    width: 20px;
+    height: 20px;
+}
+
+.main{
+    color: #181433;
+    font-family: Manrope;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+  
+.footer-image{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 120px;
+    right: 100px;
+}
+

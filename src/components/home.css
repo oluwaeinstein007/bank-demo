@@ -1,0 +1,129 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets//Rectangle\ 19290.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 150px;
+    align-items: start;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.title h1{
+    font-size: 58.506px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67.908px; 
+    width: 66%;
+}
+
+.title .box{
+    width: 75%;
+    padding: 20px 30px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 5.224px;
+    background: rgba(243, 243, 243, 0.60);
+    backdrop-filter: blur(17.760618209838867px);
+}
+
+.title .box button{
+    padding: 10px 70px;
+}
+
+.title .box h2,
+.title .box h3{
+    font-size: 18.805px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding-right: 40px;
+    
+}
+
+.title .box h2{
+    border-right: 4px solid #fff;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: -30px;
+    
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.img img{
+    width: 30px;
+    height: 20px;
+    margin-right: -40px;
+
+}
+
+.img .icon{
+    width: 30px;
+    height: 20px;
+    background-color: #DF6951;
+    stroke-width: 2.089px;
+    stroke: var(--white, #FFF);
+    border-radius: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border: 1px dotted #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 505px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin 2s linear infinite; /* Apply the spin animation */
+  }
+  
+  .circle .inner-circle {
+    width: 70%;
+    height: 70%;
+    border: 1px dotted #ffffff;
+    border-radius: 50%;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
