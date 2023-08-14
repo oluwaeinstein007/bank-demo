@@ -1,7 +1,6 @@
 import React from 'react'
 import './Packages.css'
 import Couples from '../assets/couple.png'
-import Abstract from '../assets/abstract.jpeg'
 import Elispe1 from '../assets/Ellipse 1.png'
 import Elispe2 from '../assets/Ellipse 2.png'
 import Elispe3 from '../assets/Ellipse 3.png'
