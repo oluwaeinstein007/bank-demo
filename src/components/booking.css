@@ -26,6 +26,17 @@
     justify-content: space-evenly;
     margin-right: 250px;
     /* width: 100%; */
+
+}
+
+
+@keyframes moveRightAndBack {
+    0%, 100% {
+        margin-right: 0; /* Start and end position */
+    }
+    50% {
+        margin-right: 250px; /* Move to the right for 5 seconds */
+    }
 }
 
 .booking-pecks{
@@ -221,9 +232,28 @@
     right: 100px;
     transform: scaleX(-1) rotate(20deg);
     z-index: -100;
-   
+    animation: moveAeroplane 10s linear infinite;
 }
 
+
+@keyframes moveAeroplane {
+    0%, 100% {
+        bottom: 600px;
+        right: 100px;
+    }
+    25% {
+        bottom: 590px; /* Adjust this value as needed */
+        right: 50px;  /* Adjust this value as needed */
+    }
+    50% {
+        bottom: 580px; /* Adjust this value as needed */
+        right: 25px;
+    }
+    75% {
+        bottom: 570px; /* Adjust this value as needed */
+        right: 10px; /* Adjust this value as needed */
+    }
+}
 
 
 
